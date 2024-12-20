@@ -8,6 +8,6 @@ namespace ListApi.Domain.Entities
         public int UserId { get; set; } 
         public string ListName { get; set; } 
         public DateTime CreatedDate { get; set; } 
-        public DateTime? UpdatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }
