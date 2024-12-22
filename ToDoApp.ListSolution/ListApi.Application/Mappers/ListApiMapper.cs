@@ -24,7 +24,7 @@ namespace ListApi.Application.Mappers
             if (lists is not null)//multiple users
             {
                 var multipleLists = lists!.Select(
-                    x => new ListApiDTO(list.ListId, list.UserId, list.ListName, list.CreatedDate, list.UpdatedDate)
+                    x => new ListApiDTO(x.ListId, x.UserId, x.ListName, x.CreatedDate, x.UpdatedDate)
                     );
 
                 return (null, multipleLists);

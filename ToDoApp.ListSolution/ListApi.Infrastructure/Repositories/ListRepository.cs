@@ -26,6 +26,7 @@ namespace ListApi.Infrastructure.Repositories
             try
             {
                 var listCreated = await context.Lists.AddAsync(list);
+                await context.SaveChangesAsync();
 
                 if (listCreated is null)
                     return new ListResponse(false, "error while adding the list");
@@ -96,7 +97,7 @@ namespace ListApi.Infrastructure.Repositories
         {
             try
             {
-                var getList = GetListByIdAsync(list.ListId);
+                var getList = await GetListByIdAsync(list.ListId);
                 if(getList is null) throw new Exception("error");
 
                 var propierties = typeof(ListEntity).GetProperties();

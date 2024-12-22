@@ -3,6 +3,7 @@ using ListApi.Application.Interfaces;
 using ListApi.Application.Mappers;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata.Ecma335;
 
 namespace ListApi.Presentation.Controllers
 {
@@ -10,7 +11,7 @@ namespace ListApi.Presentation.Controllers
     [ApiController]
     public class ListApiController(IListApi listInterface) : ControllerBase
     {
-        [HttpPost]
+        [HttpPost("Create")]
         public async Task<ActionResult<ListApiDTO>> CreateList(ListApiDTO list)
         {
             if (!ModelState.IsValid) return BadRequest(ModelState);
@@ -22,7 +23,7 @@ namespace ListApi.Presentation.Controllers
             else return BadRequest(ModelState);
         }
 
-        [HttpGet("{id:int}")]
+        [HttpGet("GetList/{listId:int}")]
         public async Task<ActionResult<ListApiDTO>> GetListById(int listId)
         {
             if(listId < 0) return BadRequest(ModelState);
@@ -35,7 +36,7 @@ namespace ListApi.Presentation.Controllers
             return list is not null ? Ok(_list) : NotFound("list not found");
         }
 
-        [HttpGet]
+        [HttpGet("GetLists")]
         public async Task<ActionResult<ListApiDTO>> GetALlLists()
         {
             var lists = await listInterface.GetAllListsAsync();
@@ -47,16 +48,31 @@ namespace ListApi.Presentation.Controllers
             return lists is not null ? Ok(_lists) : NotFound("not list found");
         }
 
-        [HttpDelete]
+        [HttpDelete("Delete")]
         public async Task<ActionResult<ListApiDTO>> DeleteList(int listId)
         {
-            if(!ModelState.IsValid) return BadRequest(ModelState);
+            var list = GetListById(listId);
 
-            var getList = await listInterface.GetListByIdAsync(list.ListId);
-            if (getList is null) return NotFound("no list found");
+            if (list is null) return NotFound("the list was not found");
 
-            var response = await listInterface.DeleteListAsync(getList.ListId);
+            var response = await listInterface.DeleteListAsync(listId);
 
+            //return condicional ? que hacer si se cumple : que hacer si no se cumple
+            return response.Flag ? Ok(response) : BadRequest("the list was not deleted");  
+        }
+
+        [HttpPut("Edit")]
+        public async Task<ActionResult<ListApiDTO>> EditList(ListApiDTO list)
+        {
+            var _list = GetListById(list.ListId);
+
+            if (_list is null) return NotFound("the list was not found");
+
+            var l = ListApiMapper.ToEntity(list);
+
+            var response = await listInterface.UpdateListAsync(l);
+
+            return (response.Flag) ? Ok(response) : BadRequest("the list was not updated");
         }
     }
 }

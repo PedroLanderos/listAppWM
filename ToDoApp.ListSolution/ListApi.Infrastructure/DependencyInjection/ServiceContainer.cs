@@ -17,7 +17,7 @@ namespace ListApi.Infrastructure.DependencyInjection
     {
         public static IServiceCollection AddInfrastructureService(this IServiceCollection services, IConfiguration config)
         {
-            var connectionString = config.GetConnectionString("");
+            var connectionString = config.GetConnectionString("listapiconnection");
             services.AddDbContext<ListDbConext>(x => x.UseSqlServer(connectionString));
             services.AddScoped<IListApi, ListRepository>();
 
