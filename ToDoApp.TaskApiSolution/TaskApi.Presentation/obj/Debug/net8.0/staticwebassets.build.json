@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "b+VESat7DbXJQRmpT1rMaDNvBGlYHsFKdnQl7XAuqGM=",
+  "Source": "TaskApi.Presentation",
+  "BasePath": "_content/TaskApi.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

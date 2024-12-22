@@ -1,0 +1,12 @@
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\bin\Debug\net8.0\TaskApi.Domain.deps.json
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\bin\Debug\net8.0\TaskApi.Domain.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\bin\Debug\net8.0\TaskApi.Domain.pdb
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.AssemblyInfoInputs.cache
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.AssemblyInfo.cs
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.csproj.CoreCompileInputs.cache
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.sourcelink.json
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\refint\TaskApi.Domain.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\TaskApi.Domain.pdb
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Domain\obj\Debug\net8.0\ref\TaskApi.Domain.dll
