@@ -1,3 +1,5 @@
+using TaskApi.Infrastructure.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -8,6 +10,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //builder.Services.AddInfrastructureServices(builder.Configuration);  <--- agregar la inyeccion de dependencias
+
+builder.Services.AddInfrastructureServices(builder.Configuration);
 
 var app = builder.Build();
 

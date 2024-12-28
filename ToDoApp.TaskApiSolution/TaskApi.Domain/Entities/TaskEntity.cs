@@ -13,8 +13,8 @@ namespace TaskApi.Domain.Entities
         public int TaskId { get; set; }
         public int ListId { get; set; }
         public bool Finished { get; set; } = false;
-        public string TaskName { get; set; }
-        public string TaskDescription { get; set; }
+        public string? TaskName { get; set; }
+        public string? TaskDescription { get; set; }
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedDate { get; set; } = DateTime.UtcNow;
     }
