@@ -1,10 +1,13 @@
-using Ocelot.Cache.CacheManager;
 using Ocelot.DependencyInjection;
+using Ocelot.Middleware;
+using Ocelot.Cache.CacheManager;
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
 
-builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange:true);
+// Habilitar Ocelot y el registro de logs
+builder.Logging.AddConsole();
+
+builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
 builder.Services.AddOcelot().AddCacheManager(x => x.WithDictionaryHandle());
 builder.Services.AddCors(options =>
 {
@@ -14,7 +17,12 @@ builder.Services.AddCors(options =>
     });
 });
 
+var app = builder.Build();
+
 app.UseCors();
 app.UseHttpsRedirection();
-app.Run();
 
+// Usar Ocelot para redirigir las rutas
+app.UseOcelot().Wait();
+
+app.Run();
