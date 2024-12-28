@@ -42,7 +42,7 @@ namespace TaskApi.Presentation.Controllers
         }
 
         //delete
-        [HttpDelete]
+        [HttpDelete("{id:int}")]
         public async Task<ActionResult<TaskResponse>> DeleteTask(int taskId)
         {
             var task = await taskInterface.GetTaskById(taskId);
@@ -55,7 +55,7 @@ namespace TaskApi.Presentation.Controllers
             
         }
         //getbyid
-        [HttpGet]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<TaskDTO>> GetTaskById(int taskId)
         {
             if (taskId < 0) return BadRequest();
@@ -68,8 +68,9 @@ namespace TaskApi.Presentation.Controllers
             if (_task is not null) return Ok(_task);
             else return NotFound("The task aws not found");
         }
-        
+
         //getall
+        [HttpGet]
         public async Task<ActionResult<IEnumerable<TaskDTO>>> GetAllTasks()
         {
             var tasks = await taskInterface.GetAllTasks();

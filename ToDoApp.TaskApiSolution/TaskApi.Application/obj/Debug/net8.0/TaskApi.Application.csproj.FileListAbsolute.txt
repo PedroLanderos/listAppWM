@@ -10,3 +10,7 @@ D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\
 D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\obj\Debug\net8.0\refint\TaskApi.Application.dll
 D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\obj\Debug\net8.0\TaskApi.Application.pdb
 D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\obj\Debug\net8.0\ref\TaskApi.Application.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\bin\Debug\net8.0\TaskApi.Domain.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\bin\Debug\net8.0\TaskApi.Domain.pdb
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\obj\Debug\net8.0\TaskApi.Application.csproj.AssemblyReference.cache
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Application\obj\Debug\net8.0\TaskApi..FE79A41D.Up2Date

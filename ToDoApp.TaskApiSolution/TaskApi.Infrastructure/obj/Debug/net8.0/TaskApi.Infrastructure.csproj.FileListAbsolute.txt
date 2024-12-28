@@ -10,3 +10,11 @@ D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructu
 D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\obj\Debug\net8.0\refint\TaskApi.Infrastructure.dll
 D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\obj\Debug\net8.0\TaskApi.Infrastructure.pdb
 D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\obj\Debug\net8.0\ref\TaskApi.Infrastructure.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\bin\Debug\net8.0\TaskApi.Application.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\bin\Debug\net8.0\TaskApi.Domain.dll
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\bin\Debug\net8.0\TaskApi.Application.pdb
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\bin\Debug\net8.0\TaskApi.Domain.pdb
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\obj\Debug\net8.0\TaskApi.Infrastructure.csproj.AssemblyReference.cache
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\obj\Debug\net8.0\TaskApi..2729184E.Up2Date
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\bin\Debug\net8.0\TaskApi.Infrastructure.runtimeconfig.json
+D:\Code\todomicroservices\listAppWM\ToDoApp.TaskApiSolution\TaskApi.Infrastructure\obj\Debug\net8.0\TaskApi.Infrastructure.genruntimeconfig.cache
