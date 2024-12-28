@@ -158,7 +158,6 @@ D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\ob
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\ListApi.Presentation.csproj.CoreCompileInputs.cache
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\ListApi.Presentation.MvcApplicationPartsAssemblyInfo.cs
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\ListApi.Presentation.MvcApplicationPartsAssemblyInfo.cache
-D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\ListApi.Presentation.sourcelink.json
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\staticwebassets.build.json
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\staticwebassets.development.json
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Presentation\obj\Debug\net8.0\staticwebassets\msbuild.ListApi.Presentation.Microsoft.AspNetCore.StaticWebAssets.props

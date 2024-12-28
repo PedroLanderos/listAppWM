@@ -8,7 +8,7 @@ namespace ListApi.Domain.Entities
         [Key]
         public int ListId { get; set; } 
         public int UserId { get; set; } 
-        public string ListName { get; set; } 
+        public string? ListName { get; set; } 
         public DateTime CreatedDate { get; set; } 
         public DateTime UpdatedDate { get; set; }
     }

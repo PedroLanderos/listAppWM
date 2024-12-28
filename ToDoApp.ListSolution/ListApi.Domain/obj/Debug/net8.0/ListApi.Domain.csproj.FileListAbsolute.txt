@@ -5,7 +5,6 @@ D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debu
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\ListApi.Domain.AssemblyInfoInputs.cache
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\ListApi.Domain.AssemblyInfo.cs
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\ListApi.Domain.csproj.CoreCompileInputs.cache
-D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\ListApi.Domain.sourcelink.json
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\ListApi.Domain.dll
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\refint\ListApi.Domain.dll
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Domain\obj\Debug\net8.0\ListApi.Domain.pdb

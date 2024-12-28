@@ -11,7 +11,6 @@ D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\ListApi.Infrastructure.AssemblyInfoInputs.cache
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\ListApi.Infrastructure.AssemblyInfo.cs
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\ListApi.Infrastructure.csproj.CoreCompileInputs.cache
-D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\ListApi.Infrastructure.sourcelink.json
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\ListApi..D459C5E8.Up2Date
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\ListApi.Infrastructure.dll
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Infrastructure\obj\Debug\net8.0\refint\ListApi.Infrastructure.dll

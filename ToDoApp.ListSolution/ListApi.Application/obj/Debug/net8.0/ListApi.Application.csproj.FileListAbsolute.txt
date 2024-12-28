@@ -8,7 +8,6 @@ D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\ListApi.Application.AssemblyInfoInputs.cache
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\ListApi.Application.AssemblyInfo.cs
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\ListApi.Application.csproj.CoreCompileInputs.cache
-D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\ListApi.Application.sourcelink.json
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\ListApi..DA438514.Up2Date
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\ListApi.Application.dll
 D:\Code\todomicroservices\listAppWM\ToDoApp.ListSolution\ListApi.Application\obj\Debug\net8.0\refint\ListApi.Application.dll
